@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Idle Dot Shooter</title>
+  <meta name="description" content="Idle Dot Shooter — survive waves, upgrade builds, and push your score." />
+  <link rel="stylesheet" href="./styles.css" />
+</head>
+<body>
+  <div class="bg">
+    <div class="grid"></div>
+    <div class="glow g1"></div>
+    <div class="glow g2"></div>
+    <div class="dots"></div>
+  </div>
+
+  <header class="top">
+    <div class="brand">
+      <span class="logo-dot"></span>
+      <span class="brand-name">Idle Dot Shooter</span>
+    </div>
+    <nav class="nav">
+      <a href="#download">Download</a>
+      <a href="./policy.html">Policy</a>
+    </nav>
+  </header>
+
+  <main class="wrap">
+    <section class="hero">
+      <div class="badge">Mobile • Arcade • Idle-ish</div>
+      <h1>Survive. Upgrade. Melt dots.</h1>
+      <p class="sub">
+        Fast waves, clean controls, satisfying upgrades. Links will be added when stores are ready.
+      </p>
+
+      <div class="cta" id="download">
+        <a class="btn primary" href="javascript:void(0)" aria-disabled="true" title="Soon">
+          Android — Soon
+        </a>
+        <a class="btn" href="javascript:void(0)" aria-disabled="true" title="Soon">
+          iOS — Soon
+        </a>
+      </div>
+
+      <div class="meta">
+        <div class="pill">Offline friendly</div>
+        <div class="pill">Short sessions</div>
+        <div class="pill">One-thumb play</div>
+      </div>
+    </section>
+
+    <section class="card">
+      <h2>What is this?</h2>
+      <ul>
+        <li>Wave-based dot shooter.</li>
+        <li>Upgrades + modifiers (pierce / split / explosive).</li>
+        <li>Simple HUD, readable feedback, quick restart loops.</li>
+      </ul>
+    </section>
+
+    <footer class="foot">
+      <a href="./policy.html">Privacy Policy</a>
+      <span class="sep">•</span>
+      <span>© <span id="y"></span> Idle Dot Shooter</span>
+    </footer>
+  </main>
+
+  <script>
+    document.getElementById("y").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
