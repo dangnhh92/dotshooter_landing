@@ -197,3 +197,21 @@ h1{
   .hero{padding: 26px 18px}
   .btn{min-width: 100%}
 }
+
+.card-text{
+  color: var(--muted);
+  line-height: 1.7;
+  max-width: 70ch;
+}
+
+.steps{
+  margin: 0;
+  padding-left: 18px;
+  color: var(--muted);
+}
+.steps li{
+  margin: 14px 0;
+}
+.steps strong{
+  color: var(--text);
+}
